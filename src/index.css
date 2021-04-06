@@ -17,7 +17,7 @@ body{
     width: 100%;
   background-color: var(--white);
   font-family: SpaceGrotesk;
-
+  color: var(--black);
 }
 
 section{
@@ -50,11 +50,11 @@ h2{
   color: var(--black);
 
   text-decoration: underline;
-  text-decoration-color: var(--blue);
+  text-decoration-color: var(--yellow);
 }
 
 h2::selection {
-  color: var(--blue);
+  color: var(--yellow);
 
   background: none;
 }
@@ -72,12 +72,12 @@ li p{
   margin: 0;
 }
 
-.blue{
-  color: var(--blue);
+.yellow{
+  color: var(--yellow);
 }
 
-p .blue::selection {
-  color: var(--yellow);
+p .yellow::selection {
+  color: var(--blue);
 
   background: none;
 }
